@@ -2,40 +2,40 @@
 
 Feature('URLs');
 
-// Scenario('Twitter Favicon', (I) => {
-//     I.amOnPage('/');
-//     I.click('//div/div/ul/li[position()=1]/a');
-//     I.seeInCurrentUrl('https://twitter.com/earthxorg');
-//     I.amOnPage('https://earthx.org');
-// });
+Scenario('Twitter Favicon', (I) => {
+    I.amOnPage('/');
+    I.click('//div/div/ul/li[position()=1]/a');
+    I.seeInCurrentUrl('https://twitter.com/earthxorg');
+    I.amOnPage('https://earthx.org');
+});
 
-// Scenario('Facebook Favicon', (I) => {
-//     I.amOnPage('/');
-//     I.click('//div/div/ul/li[position()=2]/a');
-//     I.seeInCurrentUrl('https://www.facebook.com/earthxorg/');
-//     I.amOnPage('https://earthx.org');
-// });
+Scenario('Facebook Favicon', (I) => {
+    I.amOnPage('/');
+    I.click('//div/div/ul/li[position()=2]/a');
+    I.seeInCurrentUrl('https://www.facebook.com/earthxorg/');
+    I.amOnPage('https://earthx.org');
+});
 
-// Scenario('Instagram Favicon', (I) => {
-//     I.amOnPage('/');
-//     I.click('//div/div/ul/li[position()=3]/a');
-//     I.seeInCurrentUrl('https://www.instagram.com/earthxorg/');
-//     I.amOnPage('https://earthx.org');
-// });
+Scenario('Instagram Favicon', (I) => {
+    I.amOnPage('/');
+    I.click('//div/div/ul/li[position()=3]/a');
+    I.seeInCurrentUrl('https://www.instagram.com/earthxorg/');
+    I.amOnPage('https://earthx.org');
+});
 
-// Scenario('Youtube Favicon', (I) => {
-//     I.amOnPage('/');
-//     I.click('//div/div/ul/li[position()=4]/a');
-//     I.seeInCurrentUrl('https://www.youtube.com/channel/UC79bJXPacuiS262Q5SB84Tg');
-//     I.amOnPage('https://earthx.org');
-// });
+Scenario('Youtube Favicon', (I) => {
+    I.amOnPage('/');
+    I.click('//div/div/ul/li[position()=4]/a');
+    I.seeInCurrentUrl('https://www.youtube.com/channel/UC79bJXPacuiS262Q5SB84Tg');
+    I.amOnPage('https://earthx.org');
+});
 
-// Scenario('Linkedin Favicon', (I) => {
-//     I.amOnPage('/');
-//     I.click('//div/div/ul/li[position()=5]/a');
-//     I.seeInCurrentUrl('https://www.linkedin.com/company/earthx.org/');
-//     I.amOnPage('https://earthx.org');
-// });
+Scenario('Linkedin Favicon', (I) => {
+    I.amOnPage('/');
+    I.click('//div/div/ul/li[position()=5]/a');
+    I.seeInCurrentUrl('https://www.linkedin.com/company/earthx.org/');
+    I.amOnPage('https://earthx.org');
+});
 
 Scenario('Header and Desktop Nav Bar', (I) => {
     I.amOnPage('/');
