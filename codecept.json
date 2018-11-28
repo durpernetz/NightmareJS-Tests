@@ -6,7 +6,8 @@
     "Nightmare": {
       "url": "https://earthx.org",
       "show": false,
-      "restart": false
+      "restart": false,
+      "windowSize": "1920x1080"
     }
   },
   "multiple": {
