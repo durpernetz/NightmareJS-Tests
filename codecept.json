@@ -4,9 +4,9 @@
   "output": "./output",
   "helpers": {
     "Nightmare": {
-      "url": "https://earthx.org",
+      "url": "https://www.earthx.org",
       "show": false,
-      "restart": false,
+      "restart": true,
       "windowSize": "1920x1080"
     }
   },
